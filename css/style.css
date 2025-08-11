@@ -255,6 +255,9 @@ a{
     background-repeat: no-repeat;
     background-color: var(--secondary);
 }
+.hero-image{
+  margin-top: -50px;
+}
 .paragraph{
     font-family: "Arabic-Second-Font";
     line-height: 1.9;
@@ -893,7 +896,7 @@ a{
     padding: 30px;
     top: 0;
     right: 0;
-    background: #06c481b0;
+    background: #606060b8;
     transition: .5s;
     z-index: 1;
     opacity: 0;
@@ -901,6 +904,9 @@ a{
 
 .portfolio-item:hover .portfolio-overlay {
     opacity: 1;
+}
+.portfolio-item img{
+  height: auto;
 }
 
 .portfolio-item .btn {
